@@ -3,6 +3,14 @@ body {
 }
 
 
+.icons{
+    align-content: right;
+   margin: auto;
+    text-decoration: none;
+    color: black;
+
+}
+
 #home_container {
     background-color: #222;
     color: white;
