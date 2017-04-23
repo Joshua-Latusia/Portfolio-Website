@@ -1,0 +1,29 @@
+body {
+
+}
+
+
+#home_container {
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+#aboutSelf_container {
+    background-color: red;
+    text-align: center;
+}
+
+#finishedProjects_container {
+    background-color: #4a831c;
+    text-align: center;
+}
+
+#currentProjects_container {
+    background-color:  navajowhite;
+    text-align: center;
+}
+
+#contact_container{
+    background: whitesmoke ;
+}
