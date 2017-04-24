@@ -1,13 +1,37 @@
 body {
-
+    background-color: whitesmoke;
 }
 
+p{
+    margin:0;
+    padding:0;
+}
+
+.github{
+    color: #6cc644;
+}
+
+.bitbucket{
+    color: #205081;
+}
+
+.youtube{
+    color: red;
+}
+
+.linkedin{
+    color: #007bb5;
+}
+
+.email{
+    color: black;
+}
 
 .icons{
     align-content: right;
    margin: auto;
     text-decoration: none;
-    color: black;
+
 
 }
 
@@ -34,4 +58,5 @@ body {
 
 #contact_container{
     background: whitesmoke ;
+    text-align: center;
 }
