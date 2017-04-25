@@ -14,7 +14,8 @@
   <body>
 
   <div id="container">
-    <div class="top-bar contain-to-grid sticky"> <!-- Make nav always on top -->
+    <div  data-sticky-container><!-- Make nav always on top -->
+      <div class="top-bar contain-to-grid sticky" data-sticky data-options="marginTop:0;" style="width:100%">
       <nav class="top-bar-left ">
         <ul class="dropdown menu" data-dropdown-menu>
           <li class="menu-text">Joshua Latusia</li>
@@ -34,6 +35,8 @@
         </ul>
       </nav> <!-- top bar left -->
 
+
+
       <div class="top-bar-right">
         <ul class="menu">
 
@@ -44,6 +47,7 @@
 
 
         </ul>
+      </div>
       </div> <!-- top-bar-right -->
     </div>  <!-- top bar -->
 
