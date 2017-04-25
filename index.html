@@ -14,8 +14,8 @@
   <body>
 
   <div id="container">
-    <div class="top-bar"> <!-- Make nav always on top -->
-      <nav class="top-bar-left">
+    <div class="top-bar contain-to-grid sticky"> <!-- Make nav always on top -->
+      <nav class="top-bar-left ">
         <ul class="dropdown menu" data-dropdown-menu>
           <li class="menu-text">Joshua Latusia</li>
 
@@ -24,7 +24,8 @@
           <li>
             <a href="#aboutSelf_sectiont">About</a>
             <ul class="menu vertical">
-              <li><a href="#aboutSelf_sectionc">Something about myself</a></li>
+              <li><a href="#aboutSelf_sectionc">About myself</a></li>
+              <li><a href="#cv_section">My Curriculum Vitae</a></li>
               <li><a href="#finishedProjects_section">All finished projects</a></li>
               <li><a href="#currentProjects_section">All ongoing projects</a></li>
             </ul>
@@ -60,6 +61,13 @@
       </div>
     </section>
 
+    <section id="cv_section">
+      <div id="cv_container">
+        <h2>Curriculum Vitae</h2>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      </div>
+    </section>
+
     <section id="finishedProjects_section">
       <div id ="finishedProjects_container">
         <h2> Finished Projects</h2>
@@ -77,11 +85,15 @@
     <section id="contact_section">
         <div id="contact_container">
           <h2> Contact me!</h2>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-          <div class="row">
+          <div class="row" id="contact_introduction">
+            <p>Below you can find some useful links to find out more about me and my work, and how to lay contact with me. On my Github and Bitbucket you can see the code of projects I have worked on and if I am still coding frequently. On my Youtube channel you can see the output/results of some of these projects. To get a better look about me as a person there is my LinkedIn, here you can find out more about my work experience and skill set. If you want to come in contact with me or ask me something you can send me an email and I will respond back to you in two or three working days. </p>
+          </div>
+
+
+            <div class="row icons">
             <!-- fix propper spacing -->
             <div class="small-2 columns "><a href="https://github.com/joshuaRMS" target="_blank"> <i class="fa fa-git-square fa-4x icons github hvr-grow" aria-hidden="true" ></i> <p> Github</p></a></div>
-            <div class="small-2 columns "><a href="https://bitbucket.org/RMSjoshua/" target="_blank"><i class="fa fa-bitbucket-square fa-4x icons bitbucket hvr-grow" aria-hidden="true"></i>  <p> Bitbcuket</p> </a>  </div>
+            <div class="small-2 columns "><a href="https://bitbucket.org/RMSjoshua/" target="_blank"><i class="fa fa-bitbucket-square fa-4x icons bitbucket hvr-grow" aria-hidden="true"></i>  <p> Bitbucket</p> </a>  </div>
             <div class="small-3 columns " id="youtube_container"><a href="https://www.youtube.com/channel/UCRUOZKka5DhEnIJ9NJ3K19A" target="_blank"><i class="fa fa-youtube-square fa-4x icons youtube hvr-grow" aria-hidden="true"></i> <p> Youtube</p></a> </div>
 
             <div class="small-2 columns"><a href="https://www.linkedin.com/in/joshua-latusia-225238135/" target="_blank"><i class="fa fa-linkedin-square fa-4x icons linkedin hvr-grow" aria-hidden="true"></i> <p> LinkedIn</p></a> </div>
@@ -91,6 +103,7 @@
           </div>
         </div>
     </section>
+    <br>
   </div> <!-- container -->
 
 
