@@ -43,7 +43,7 @@ h2{
 
 }
 
-#contact_introduction{
+.left_aligned_text{
     text-align: left;
     margin-left: 35px;
 }
