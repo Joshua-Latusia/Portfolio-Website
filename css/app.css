@@ -1,18 +1,17 @@
 body {
     background-color: whitesmoke;
-    overflow-y: scroll;
 }
 
 p{
     margin:0;
     padding:10px;
-
-
 }
 
 h2{
     padding-top: 10px;
 }
+
+
 
 .github{
     color: #6cc644;
@@ -52,29 +51,41 @@ h2{
     background-color: #222;
     color: white;
     text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 #aboutSelf_container {
     background-color: red;
     text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 #cv_container {
     background-color: greenyellow;
     text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 #finishedProjects_container {
     background-color: #4a831c;
     text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 #currentProjects_container {
     background-color:  navajowhite;
     text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 #contact_container{
     background: whitesmoke ;
     text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
