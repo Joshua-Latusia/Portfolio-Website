@@ -13,6 +13,7 @@ h2{
 
 
 
+
 .github{
     color: #6cc644;
 }
@@ -44,14 +45,13 @@ h2{
 
 .left_aligned_text{
     text-align: left;
-    margin-left: 35px;
 }
 
 #home_container {
     background-color: #222;
     color: white;
     text-align: center;
-    padding-top: 45px;
+    padding-top: 75px;
     padding-bottom: 45px;
 }
 
