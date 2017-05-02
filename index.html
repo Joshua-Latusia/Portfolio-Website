@@ -14,6 +14,8 @@
   <body>
 
   <div id="container">
+
+    <!-- Navigation -->
     <div  data-sticky-container><!-- Make nav always on top -->
       <div class="top-bar contain-to-grid sticky" data-sticky data-options="marginTop:0;" style="width:100%">
       <nav class="top-bar-left ">
@@ -51,6 +53,9 @@
       </div> <!-- top-bar-right -->
     </div>  <!-- top bar -->
 
+
+    <!-- Home Content -->
+
     <section id="home_section">
       <div id="home_container">
           <h2>Hey there...</h2>
@@ -75,19 +80,14 @@
           <div class="small-6 large-7 columns ">
             <!-- <a href="#aboutSelf_section"> <!-- Image here </a> -->
             <a href="#aboutSelf_section"> <img src="/img/pic_of_myself.png" class="hvr-grow" height="256" width="256"> </a>
-            <p>Click me to find out more about me.</p>
+            <!-- TODO spacing betwwen pic and text -->
+            <h4>Click me to find out more about me.</h4>
             <br><br><br><br><br>
           </div>
 
         </div>
 
-
-
-
-
-
-
-      </div> <!--home_container -->
+      </div>
     </section>
 
     <section id="aboutSelf_section">
@@ -106,7 +106,6 @@
           The skill levels of each of these languages is listed in my <b><a href="#cv_section" aria-hidden="true" class="hvr-buzz" style="color: black; text-decoration: none;">CV</a></b>.
           <br><br><br><br><br>
 
-
         </p>
         </div>
         </div>
@@ -114,6 +113,9 @@
 
       </div>
     </section>
+
+
+    <!-- CV content -->
 
     <section id="cv_section">
       <div id="cv_container">
@@ -316,12 +318,6 @@
                       Elementary proficiency
                     </p>
                   </div>
-
-
-
-
-
-
             </div>
 
 
@@ -336,19 +332,30 @@
 
 
 
-         </div>
+        </div>
     </section>
 
     <section id="finishedProjects_section">
       <div id ="finishedProjects_container">
         <h2> Finished Projects</h2>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+        <div class="row projects">
+          <div id="3d-project">
+            <!-- TODO add other projects with working flip cards -->
+          </div>
+
+        </div>
+
+
+
+
       </div>
     </section>
 
     <section id="currentProjects_section">
       <div id="currentProjects_container">
         <h2> Current Projects</h2>
+        <!-- TODO add other projects with working flip cards -->
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
       </div>
     </section>
@@ -357,20 +364,23 @@
         <div id="contact_container">
           <h2> Contact me!</h2>
           <div class="small-11 small-centered columns" >
-            <p>Below you can find some useful links to find out more about me and my work, and how to lay contact with me. On my Github and Bitbucket you can see the code of projects I have worked on and if I am still coding frequently. On my Youtube channel you can see the output/results of some of these projects. To get a better look about me as a person there is my LinkedIn, here you can find out more about my work experience and skill set. If you want to come in contact with me or ask me something you can send me an email and I will respond back to you in two or three working days. </p>
+              <p>Below you can find some useful links to find out more about me and my work, and how to lay contact with me.
+                On my Github and Bitbucket you can see the code of projects I have worked on and if I am still coding frequently.
+                On my Youtube channel you can see the output/results of some of these projects. To get a better look about me as a person there is my LinkedIn,
+                here you can find out more about my work experience and skill set.
+                If you want to come in contact with me or ask me something you can send me an email and I will respond back to you in two or three working days.
+              </p>
           </div>
 
 
-            <div class="row icons">
-            <!-- todo fix propper spacing -->
-            <div class="small-2 columns "><a href="https://github.com/joshuaRMS" target="_blank"> <i class="fa fa-git-square fa-4x icons github hvr-grow" aria-hidden="true" ></i> <p> Github</p></a></div>
-            <div class="small-2 columns "><a href="https://bitbucket.org/RMSjoshua/" target="_blank"><i class="fa fa-bitbucket-square fa-4x icons bitbucket hvr-grow" aria-hidden="true"></i>  <p> Bitbucket</p> </a>  </div>
-            <div class="small-3 columns " id="youtube_container"><a href="https://www.youtube.com/channel/UCRUOZKka5DhEnIJ9NJ3K19A" target="_blank"><i class="fa fa-youtube-square fa-4x icons youtube hvr-grow" aria-hidden="true"></i> <p> Youtube</p></a> </div>
+          <div class="row icons">
+          <!-- todo fix propper spacing -->
+          <div class="small-2 columns "><a href="https://github.com/joshuaRMS" target="_blank"> <i class="fa fa-git-square fa-4x icons github hvr-grow" aria-hidden="true" ></i> <p> Github</p></a></div>
+          <div class="small-2 columns "><a href="https://bitbucket.org/RMSjoshua/" target="_blank"><i class="fa fa-bitbucket-square fa-4x icons bitbucket hvr-grow" aria-hidden="true"></i>  <p> Bitbucket</p> </a>  </div>
+          <div class="small-3 columns " id="youtube_container"><a href="https://www.youtube.com/channel/UCRUOZKka5DhEnIJ9NJ3K19A" target="_blank"><i class="fa fa-youtube-square fa-4x icons youtube hvr-grow" aria-hidden="true"></i> <p> Youtube</p></a> </div>
+          <div class="small-2 columns"><a href="https://www.linkedin.com/in/joshua-latusia-225238135/" target="_blank"><i class="fa fa-linkedin-square fa-4x icons linkedin hvr-grow" aria-hidden="true"></i> <p> LinkedIn</p></a> </div>
+          <div class="small-3 columns"><a href="mailto:jcdslatu[*at*]student[*dot*]avans[*dot*]nl" target="_blank"><i class="fa fa-envelope-square fa-4x icons email hvr-grow" aria-hidden="true" ></i> <p>jcdslatu@student.avans.nl</p></a> </div>
 
-            <div class="small-2 columns"><a href="https://www.linkedin.com/in/joshua-latusia-225238135/" target="_blank"><i class="fa fa-linkedin-square fa-4x icons linkedin hvr-grow" aria-hidden="true"></i> <p> LinkedIn</p></a> </div>
-
-
-            <div class="small-3 columns"><a href="mailto:jlatusia@hotmail.com" target="_blank"><i class="fa fa-envelope-square fa-4x icons email hvr-grow" aria-hidden="true" ></i> <p>jlatusia@hotmail.com</p></a> </div>
           </div>
         </div>
     </section>
